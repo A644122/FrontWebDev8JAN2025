@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: Roboto, sans-serif;
+}
+.header {
+  width: 100%;
+  display: flex;
+  background-color: pink;
+  box-shadow: 0px 2px 0px 10px #ccc;
+}
+/* leftheader side styling here */
+.menu > ul {
+  display: flex;
+
+  /* margin: 20px 10px; */
+}
+.menu > ul > li {
+  padding: 15px;
+}
+.menu > ul > li > a {
+  color: rgb(243, 240, 241);
+  font-size: 15px;
+  font-weight: bold;
+}
+.Mylogo {
+  margin: 15px 20px;
+}
+.leftheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 48%;
+  /* background-color: green; */
+  margin-left: 2%;
+}
+/* right side styling here */
+.rightheader {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+.rightheader form {
+  width: 70%;
+  display: flex;
+
+  border-radius: 2px;
+  align-items: center;
+
+  background-color: rgb(190, 179, 179);
+}
+.rightheader form button {
+  width: 10%;
+  outline: none;
+  border: none;
+}
+.rightheader form input {
+  width: 90%;
+}
+.rightheader .profile {
+  padding: 10px;
+}
