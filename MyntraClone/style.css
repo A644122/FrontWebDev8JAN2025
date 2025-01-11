@@ -41,10 +41,10 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
-  width: 45%;
+  width: 50%;
 }
 .rightheader form {
-  width: 70%;
+  width: 55%;
   display: flex;
 
   border-radius: 2px;
@@ -55,11 +55,51 @@
 .rightheader form button {
   width: 10%;
   outline: none;
+  background: transparent;
   border: none;
 }
 .rightheader form input {
-  width: 90%;
+  width: 70%;
+  /* padding: 10px; */
+  height: 33px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.profile {
+  position: relative;
+}
+span > i {
+  padding: 10px;
 }
 .rightheader .profile {
   padding: 10px;
+  position: absolute;
+  top: 20px;
+  right: 60px;
+}
+.menuicon {
+  font-size: 20px;
+}
+
+/* media query */
+
+/* maximum width media query */
+@media only screen and (max-width: 480px) {
+  .header {
+    width: 900px;
+    display: flex;
+    background-color: rgb(10, 9, 9);
+
+    color: white;
+  }
+  .rightheader > .Hidden {
+    display: none;
+  }
+  .profile {
+    display: none;
+  }
+  .menu > ul > li {
+    display: none;
+  }
 }
