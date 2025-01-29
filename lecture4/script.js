@@ -123,10 +123,15 @@
 //   console.log(fruit[0]);
 // }
 
-let str = "abc";
-console.log(str);
-let strNew = str.toUpperCase();
-console.log(strNew);
+// let str = "abc";
+// console.log(str);
+// let strNew = str.toUpperCase();
+// console.log(strNew);
 // console.log(str);
 // let newstr = str.toUpperCase();
 // console.log(newstr);
+// let num = [1, 2, 3, 4, 5, 6, 7, 8];
+// console.log(num);
+// let newNum = num.shift();
+// console.log(newNum);
+// console.log(num);
