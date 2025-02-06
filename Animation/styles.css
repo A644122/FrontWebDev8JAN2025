@@ -1,0 +1,45 @@
+/* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f4a4a4;
+}
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide-track {
+  display: flex;
+  width: 200%; /* Double the width to accommodate duplicated slides */
+  animation: slide 20s linear infinite;
+}
+
+.slide {
+  margin: 20px 10px;
+  width: 15%; /* Each slide takes 25% of the container width */
+  flex-shrink: 0;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(
+      -50%
+    ); /* Move to the left by 50% of the container width */
+  }
+}
