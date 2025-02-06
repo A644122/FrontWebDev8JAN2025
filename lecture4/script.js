@@ -135,3 +135,76 @@
 // let newNum = num.shift();
 // console.log(newNum);
 // console.log(num);
+// let a = 10;
+// let b = "20";
+// console.log(a + b);
+// let number = [1, 2, 3, 4, 5, 6];
+// console.log(number);
+// const newnum = number.map((el) => {
+//   sum = el + 100;
+//   console.log(sum);
+
+// });
+// for of loop//
+// let language = "JavaScript";
+// console.log(language);
+// let newlanguage = language.slice(0, "Y");
+// console.log(newlanguage);
+// for (let a of language) {
+//   console.log(a);
+// }
+
+// let fruit = ["apple", "mango"];
+// for (let key of fruit) {
+//   console.log(key);
+//   for (let i in key) {
+//     console.log(i);
+//     let ft = key[1];
+//     console.log(ft);
+//   }
+// }
+// let students = {
+//   FullName: "Afroz",
+//   Age: 20,
+//   State: "West Bengal",
+// };
+// for (let key in students) {
+//   // console.log(key);
+//   // console.log(students[key]);
+//   // console.log(students);
+//   console.log(students[key]);
+// }
+
+// Templete Literal//
+let a = "Md Afroz Alam";
+console.log(`My name is : ${a}`);
+
+let num = [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+];
+console.log(num);
+let newNum = num.splice(7, 7);
+console.log(newNum);
+//replace//
+let str = "Hellow";
+let New_str = str.replace("H", "Y");
+console.log(New_str);
