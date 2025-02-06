@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Management App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Sidebar for Results -->
+    <div class="sidebar" id="sidebar">
+      <h2>Student Results</h2>
+      <div id="resultDetails">
+        <!-- Result details will be dynamically added here -->
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <h1>College Management App</h1>
+      <div class="form-container">
+        <h2>Add/Edit Student Record</h2>
+        <form id="studentForm">
+          <input type="text" id="name" placeholder="Student Name" required>
+          <input type="number" id="age" placeholder="Age" required>
+          <input type="text" id="rollNumber" placeholder="Roll Number" required>
+          <input type="text" id="department" placeholder="Department" required>
+          <input type="number" id="semester" placeholder="Semester" required>
+          <input type="number" id="marks" placeholder="Marks" required>
+          <input type="tel" id="phoneNumber" placeholder="Phone Number" required>
+          <input type="text" id="city" placeholder="City" required>
+          <input type="text" id="location" placeholder="Location" required>
+          <input type="text" id="pincode" placeholder="Pincode" required>
+          <button type="submit" id="saveBtn">Save Record</button>
+        </form>
+      </div>
+
+      <div class="records-container">
+        <h2>Student Records</h2>
+        <table id="recordsTable">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>Roll No</th>
+              <th>Department</th>
+              <th>Semester</th>
+              <th>Marks</th>
+              <th>Phone</th>
+              <th>City</th>
+              <th>Location</th>
+              <th>Pincode</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Records will be dynamically added here -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
