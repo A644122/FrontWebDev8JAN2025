@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Delivery App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Food Delivery App</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#cart">Cart</a>
+      <a href="#track">Track Order</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to Food Delivery</h2>
+    <input type="text" id="search" placeholder="Search for restaurants or dishes...">
+    <div id="restaurants">
+      <!-- Restaurant list will be dynamically populated here -->
+    </div>
+  </section>
+
+  <section id="menu" style="display: none;">
+    <h2>Menu</h2>
+    <div id="menu-items">
+      <!-- Menu items will be dynamically populated here -->
+    </div>
+  </section>
+
+  <section id="cart" style="display: none;">
+    <h2>Your Cart</h2>
+    <div id="cart-items">
+      <!-- Cart items will be dynamically populated here -->
+    </div>
+    <button id="checkout">Proceed to Checkout</button>
+  </section>
+
+  <section id="track" style="display: none;">
+    <h2>Track Your Order</h2>
+    <div id="map"></div>
+    <p id="order-status">Order Status: Preparing</p>
+  </section>
+
+  <script src="script.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap" async
+    defer></script>
+</body>
+
+</html>
